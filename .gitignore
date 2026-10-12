@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+
+# 运行时产物
+temp_uploads/
+runs/
+runs_enhanced/
+*.log
+
+# 本地数据库（个人检测记录，不入库）
+inspection.db
+
+# 数据集压缩包与缓存（数据集目录本身保留）
+yolo-cases/steel_data/steel_data.zip
+yolo-cases/steel_data/train/labels.cache
+.DS_Store
+.ipynb_checkpoints/
+
+# 官方预训练权重可自行下载，不入库；训练成果 models/best.pt 保留
+*.pt
+!models/best.pt
+
+# 旧提交文件（根目录最新版保留）
+yolo-cases/submission.csv
